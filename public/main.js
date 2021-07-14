@@ -10,7 +10,7 @@ getPage.onclick = () => {
       array.forEach(item => {
         const li = document.createElement('li')
         li.textContent = item.id
-        xxx.appendChild(li)  
+        nextPage.appendChild(li)  
       })
       n+=1
     }
